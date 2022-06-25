@@ -1,0 +1,22 @@
+{
+  "name": "Master_proj",
+  "description": "",
+  "main": "",
+  "authors": [
+    "tamarashabatat <t.shbatat@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "index",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.4.3",
+    "font-awesome": "^6.1.1"
+  }
+}

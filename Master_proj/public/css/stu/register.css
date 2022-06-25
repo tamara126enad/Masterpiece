@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+.register {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    /* width: 55%; */
+    /* margin-left: 20%; */
+}
+
+.inner {
+    max-width: 900px;
+    margin: auto;
+    background: #d4d3cf;
+    display: flex;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+    border-radius: 12px;
+    border: #808080 outset 4px;
+}
+
+
+.image-holder {
+    width: 50%;
+    padding-right: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.form-reg {
+    width: 90%;
+    padding-top: 20px;
+    padding-inline: 40px;
+}
+
+
+
+.form-holder {
+    padding-left: 24px;
+    position: relative;
+}
+
+/* .form-holder:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #b1b1b1;
+    position: absolute;
+    left: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+
+h3 {
+    font-size: 35px;
+    font-family: "ElMessiri-SemiBold";
+    text-align: center;
+    margin-bottom: 27px;
+    color: #000;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+    height: 47px;
+    padding: 0 24px;
+    color: #3c3c3c;
+    font-size: 13px;
+    border: none;
+    /* background: #d6d6d6; */
+    margin-bottom: 25px;
+}
+
+
+.btn-reg {
+    letter-spacing: 2px;
+    border: none;
+    width: 133px;
+    height: 47px;
+    margin-right: 19px;
+    border-radius: 23.5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: darkgreen;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat-SemiBold";
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+}
+
+input[type=password] {
+    font-size: 15px;
+}
+
+
+.form-data-btn {
+    display: flex;
+    margin-left: 20px;
+}
+
+
+/******************************************            login */
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 330px;
+    background-color: rgb(189, 225, 193);
+    color: darkorange;
+    text-align: center;
+    border-radius: 6px;
+    border: 2px solid #fe9901;
+    padding: 8px 10px 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 700%;
+    left:1%;
+}
+
+/* Popup x-close */
+.popup .x-close::after {
+    content: "X";
+    position: absolute;
+    top: 4%;
+    left: 88%;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 5px 8px;
+  }
+  .popup .x-close:hover:after{background-color: #808080;}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn .5s;
+    animation: fadeIn .5s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

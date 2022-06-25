@@ -1,0 +1,192 @@
+.mbs {
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.main-sec {
+    width: 90%;
+}
+
+
+.glass-container {
+    width: 16rem;
+    height: 16rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border: 10px solid rgba(255, 255, 255, .6);
+    border-radius: 12px;
+    margin-left: 30px;
+    transition: transform .2s;
+}
+
+.glass-container:hover{
+    transform: scale(1.2);
+}
+
+
+.hero-sec {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-img {
+    width: 88%;
+    margin: 6% 1% 2% 12%;
+    border-radius: 30px;
+}
+
+.hero-txt {
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    width: 26%;
+    font-size: x-large;
+    text-align: justify;
+    z-index: 1;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    /* background: rgba(255, 255, 255, 0.21); */
+    text-shadow: 0 0 3px orangered;
+    color: #000;
+}
+
+.join-btn {
+    padding: 0.6em 1em;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #FE9801;
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    left: 32%;
+    z-index: 1;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.join-btn:before {
+    content: "Join Us";
+    background: linear-gradient(45deg,
+            #ffffff,
+            #e8d9cc,
+            #65815a,
+            #5b6492,
+            #FFC64B);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    animation: glowing-join-btn 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 12px;
+    color: #000;
+}
+
+@keyframes glowing-join-btn {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.join-btn:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FE9801;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    color: #000;
+    font-size: 24;
+}
+
+
+/**********************************************/
+
+.aboutImg-sec{
+    display: grid;
+    margin-inline: 12%;
+}
+
+.cover{
+    width: 60%;
+    height: 200px;
+    margin: 0 auto;
+    display: grid;
+}
+
+.four {
+    width: 60%;
+    margin-right: 12px;
+}
+
+
+.img-part {
+    float: left;
+    width: 40%;
+    margin: 3px;
+}
+
+.ip1 {
+    border-top-left-radius: 8px;
+}
+
+.ip2 {
+    border-top-right-radius: 8px;
+    margin-right: 50px;
+}
+
+.ip3 {
+    border-bottom-left-radius: 8px;
+}
+
+.ip4 {
+    border-bottom-right-radius: 8px;
+    margin-right: 50px;
+}
+
+
+.why-center {
+    margin-left: 12%;
+    text-align: center;
+}
+
+
+/* sec-3 */
+
+.w-80 {
+    width: 78%;
+    margin-left: 15%
+}
+
+.serv-sec{
+    /* margin-left: 12px; */
+    text-align: center;
+    width: 100%;
+}
+
+.txt-just {
+    text-align: justify;
+}
+
+.bl {
+    border-left: 2px solid #585858;
+}

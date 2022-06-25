@@ -1,0 +1,39 @@
+.bd{border: 2px solid #000;}
+
+.head{position: fixed;
+margin: 0  3% ;
+width: 96%;
+background-color: #e3e2de;
+border-bottom-left-radius:12px;
+border-bottom-right-radius:12px ;
+margin-bottom: 5%;
+z-index: 2000;
+}
+
+.navbar{display: flex;
+    justify-content: space-between;
+    width:94%;}
+
+.logo-img{  width: 16%; 
+    height: 16%;
+    margin-left: 20%; }
+
+.link{ 
+    justify-content: space-between;
+    font-size:20px ;
+    width: 45%;
+}
+
+.nav-links{
+    margin-right:1%;
+padding-right: 10px;
+font-family: 'Dosis', sans-serif;}
+
+.link a{transition: color .2s ease-in-out, box-shadow .3s ease-in-out;  border-radius: 8px;}
+.link a:hover {
+    box-shadow: inset 100px 0 0 0 darkgreen;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+  }
+
